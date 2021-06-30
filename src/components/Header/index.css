@@ -1,0 +1,43 @@
+.admin{
+    height: 80px;
+    width: 100%;
+    background-color: #f0d50e;
+    padding: 0 20px;
+}
+.admin-header{
+    height: 80px;
+    
+}
+.title___3-WZj{
+    height: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 80px;
+    
+}
+.version___1rwIg{
+    font-size: 17px;
+    font-weight: bold;
+    color: #282828;
+    margin: 0 24px 0 16px;
+}
+.role___1-kq-{
+    display: inline-block;
+    width: 132px;
+    height: 34px;
+    font-size: 14px;
+    font-family: MicrosoftYaHei, 微软雅黑;
+    font-weight: 400;
+    color: rgb(240, 213, 14);
+    line-height: 34px;
+    margin-left: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    background: rgb(40, 40, 40);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(40, 40, 40);
+    border-image: initial;
+    border-radius: 17px;
+}

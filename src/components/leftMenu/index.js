@@ -25,7 +25,7 @@ export default class LeftMenu extends Component {
     
       render() {
         return (
-          <div style={{ width: 256 }}>
+          <div style={{ width: 200 }}>
             <Button type="primary" onClick={this.toggleCollapsed} style={{ marginBottom: 16 }}>
               {React.createElement(this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined)}
             </Button>
