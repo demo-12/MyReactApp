@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Form, Input, Button } from 'antd';
+import { Link } from 'react-router-dom';
 import './login.css'
 import logo from './images/logo512.png'
 
@@ -40,7 +41,9 @@ export default class Login extends Component {
 
                         <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
                             <Button type="primary" htmlType="submit">
-                            Submit
+                                <Link to="/enterpriseNews">
+                                Submit
+                                </Link>
                             </Button>
                         </Form.Item>
                         </Form>

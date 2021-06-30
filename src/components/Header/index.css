@@ -1,4 +1,5 @@
 .admin{
+    
     height: 80px;
     width: 100%;
     background-color: #f0d50e;
@@ -6,6 +7,8 @@
 }
 .admin-header{
     height: 80px;
+    display: flex;
+    justify-content: space-between;
     
 }
 .title___3-WZj{
@@ -20,6 +23,16 @@
     font-weight: bold;
     color: #282828;
     margin: 0 24px 0 16px;
+}
+.header-right{
+    line-height: 80px;
+    align-items: center;
+
+}
+.header-right span{
+    
+    height: 80px;
+    
 }
 .role___1-kq-{
     display: inline-block;
